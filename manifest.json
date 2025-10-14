@@ -1,7 +1,7 @@
 {
   "name": "ระบบติดตามเมฆฝน",
   "short_name": "RainTracker",
-  "start_url": "/",
+  "start_url": "/rain",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#667eea",
