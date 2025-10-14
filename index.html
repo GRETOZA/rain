@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ฝน - หมู่ที่ 3 ต.เขาขาว อ.ห้วยยอด จ.ตรัง</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#667eea">
     <style>
         body {
             box-sizing: border-box;
@@ -73,6 +75,11 @@
         }
     </style>
 </head>
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js');
+  }
+</script>
 <body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-full">
     <div class="container mx-auto px-4 py-6">
         <!-- Header -->
