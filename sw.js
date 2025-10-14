@@ -1,9 +1,9 @@
 const CACHE_NAME = 'rain-app-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/styles.css', // ถ้ามี CSS แยก
-  '/script.js'   // ถ้ามี JS แยก
+  '/rain/',
+  '/rain/index.html',
+  '/rain/icon-192.png',
+  '/rain/icon-512.png'
 ];
 
 self.addEventListener('install', event => {
